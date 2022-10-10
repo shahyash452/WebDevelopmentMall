@@ -1,0 +1,325 @@
+header h3 {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    font-size: 2.1rem;
+    font-family: 'Koh Santepheap', cursive;
+    padding: 6px 3px;
+    font-weight: 300;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -8px;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    top: 0px;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 3px 14px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 5px 17px;
+    text-decoration: none;
+    color: white;
+    border-radius: 9px;
+}
+#nav-links ul li::after{
+    display: block;
+    position: relative;
+    top: 0px;
+    content: '';
+    width: 0%;
+    height:1px;
+    background-color: #f44336;
+    margin: auto;
+    transition: 0.5s;
+}
+#nav-links ul li:hover::after{
+    width: 60%;
+}
+.container{
+    display: flex;
+    /* flex-basis: 50%; */
+    /* flex-wrap: wrap; */
+}
+.image img {
+    margin-top: 25px;
+    width: 60%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.til {
+    font-size: 2rem;
+    line-height: 10px;
+    letter-spacing: .5px;
+    margin-left: 82px;
+    font-weight: 100;
+}
+
+.us {
+    font-size: 13px;
+    line-height: 10px;
+    margin-left: 82px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.try {
+    font-size: 1.4rem;
+    line-height: 10px;
+    letter-spacing: .5px;
+    margin-left: 82px;
+    font-weight: 150;
+}
+
+.des {
+    font-size: 1.2rem;
+    line-height: 17px;
+    /* letter-spacing: 0.5px; */
+    margin-left: 85px;
+    font-weight: 100;
+    margin-top: 28px;
+}
+
+.dt {
+    font-size: 13px;
+    line-height: 10px;
+    /* letter-spacing: .5px; */
+    margin-left: 82px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.formgroup {
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+    color: white;
+    background-image: url("salad.jpg");
+    background-size: cover;
+    width: 150%;
+    height: 500px;
+    /* height: 100%; */
+    margin: auto;
+    margin-right: 100px;
+}
+.group {
+    color: white;
+    /* padding: 35px 9px 5px 3px; */
+    padding: 10px;
+}
+.group input{
+    padding: 10px;
+    width: 50%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.group input time{
+    margin-bottom: 5px;
+}
+.group select{
+    padding: 7px;
+    width: 40%;
+}
+.Book a {
+    padding: 11px 5px 13px 6px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    display: block;
+    font-size: 12px;
+    list-style: none;
+    text-align: center;
+    margin: 34px 178px 4px 160px;
+
+}
+
+.Book a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+    border: 2px solid black;
+}
+
+.res {
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.location {
+    /* margin: 5px 2px 2px 188px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+    flex: 1;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.usr {
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 17px;
+}
+.usr2{
+    font-size: 12px;
+    line-height: 10px;
+    /* letter-spacing: .5px; */
+    /* margin-left: 82px; */
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: -16px;
+}
+.location a img{
+    height: 27px;
+    margin: -8px 139px 2px 2px;
+}
+.text{
+    text-align: center;
+    font-size: 1.6rem;
+    position: relative;
+    top: -80px;
+    margin-bottom: -60px;
+ }
+ /* Footer */
+ .row
+ {
+     display: flex;
+     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+.footer{
+    background: black;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 100px;
+    margin-top: 10px;
+ }
+ .container-1
+ {
+    /* max-width: 2150px; */
+    margin:  auto;
+    /* padding-left: 25px; */
+    padding-right: 25px;
+     max-width: 1700px;
+ }
+ .footer p{
+     color: gray;
+ }
+ .footer h3{
+     font-size: 1.3rem;
+     margin-bottom: 20px;
+ }
+ 
+ .footer #email{
+     width: 100%;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 1.3rem;
+     border: 2px solid gray;
+ }
+ .footer #submit{
+     display: flex;
+     margin: auto;
+     width: 30%;
+     padding: 8px;
+     margin-top: 20px;
+     border-radius: 5px;
+     text-align: center;
+     font-size: 1.3rem;
+     background-color: black;
+     color: white;
+ }
+ .footer #submit:hover{
+     background-color: white;
+     color: black;
+ }
+ .footer-col-2{
+     text-align: center;
+ }
+ .footer-col-2 p{
+     font-size: 1.5rem;
+ }
+ .footer-col-2 img{
+     height: 80px;
+     margin-bottom: 20px;
+ }
+ .footer-col-3,.footer-col-4{
+     /* flex-basis: 12%;     */
+     text-align: center;
+ }
+ .footer-col-3 ul,.footer-col-4 ul{
+     list-style: none;
+     font-size: 1.4rem;
+     color: gray;
+ }
+ .footer-col-3 ul li ,.footer-col-4 ul li {
+     padding: 3px;
+     color: gray;
+ }
+ a{
+     text-decoration: none;
+ }
+ .app-logo{
+     margin-top: 15px;
+ }
+ .app-logo img{
+     height: 70px;
+     width: 230px;
+ }
+ .footer-col-3 ul :hover{
+     color: white;
+ }
+ .footer-col-4 ul :hover{
+     color: white;
+ }
+ .btn-add{
+     border: 2px solid black;
+     font-size: 1.4rem;
+     width: 70%;
+     padding: 10px;
+     background-color: black;
+     margin-top: 8px;
+ }
+ .btn-add a{
+     color: white;
+ }
+ .btn-add:hover{
+     background-color: gray;
+ }
+ footer{
+     text-align: center;
+     font-size: 1.7rem;
+     color: black;
+     margin-top: 25px;
+     margin-bottom: 20px;
+ }
+ 

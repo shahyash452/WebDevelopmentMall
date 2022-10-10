@@ -1,0 +1,32 @@
+/* Navigation Menu */
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+/* Home */
+#home{
+    height: 500px;
+}
+#home::before{
+    height: 60%;
+}
+/* Services */
+#services{
+    display: flex;
+    flex-direction: column;
+}
+.services-container h1{
+    margin-top: -120px;
+}
+/* Client Section */
+#client-section{
+
+}
+/* Contact */
+.contact::before{
+    height: 35%;
+}
+/* Footer */
+footer{
+   /* margin-top: -2px; */
+}

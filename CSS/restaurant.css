@@ -1,0 +1,130 @@
+header h3{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    font-size: 2.1rem;
+    font-family: 'Koh Santepheap', cursive;
+    padding : 6px 3px;
+    font-weight: 300;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -8px;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    top: 0px;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    margin-top: -35px;
+}
+/* #logo img{
+    height: 68px;
+    width: 68px;
+    margin: 10px 10px;
+    margin-left: -500px;
+    /* filter:invert(100%); 
+    cursor: pointer;
+    border: 2px solid none;
+    border-radius: 25px;
+} */
+#navbar ul{
+    display: flex;
+    align-items:center ;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    top: 0px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 3px 5px;
+}
+#navbar ul li a{
+    display: block;
+    margin:-29px 17px;
+    padding: 5px 17px;
+    text-decoration: none;
+    color: white;
+    border-radius: 9px;
+}
+#nav-links ul li::after{
+    display: block;
+    position: relative;
+    top: 23px;
+    content: '';
+    width: 0%;
+    height:1px;
+    background-color: #f44336;
+    margin: auto;
+    /* margin-top: 0px; */
+    transition: 0.5s;
+}
+#nav-links ul li:hover::after{
+    width: 60%;
+}
+
+.container {
+    background-image: url('mix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    top: -10px;
+    opacity: 0.85;
+}
+.restaurant h1{
+    text-align: center;
+    font-weight: 400;
+    background-color: whitesmoke;
+}
+.more{
+    display: flex;
+}
+.more a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 12px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    transition: 0.6s;
+}
+.more a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#more-2{
+    position: relative;
+    left: 550px;
+}
+#more-3{
+    position: relative;
+    left: 980px;
+}
+.restaurant-2{
+    display: flex;
+}
+.restaurant-2 img{
+    margin: 3px;
+    margin-top: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 700px;
+}
